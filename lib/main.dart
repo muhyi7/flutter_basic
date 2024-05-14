@@ -4,11 +4,11 @@ import 'package:flutter_basic/gradient_container.dart';
 
 void main() {
   runApp(
-    const MaterialApp(
+    MaterialApp(
       home: Scaffold(
         body: GradientContainer(
-          Color.fromARGB(255, 255, 73, 18),
-          Color.fromARGB(255, 81, 255, 0),
+          const Color.fromARGB(255, 104, 0, 81),
+          const Color.fromARGB(255, 36, 1, 117),
         ),
       ),
     ),
